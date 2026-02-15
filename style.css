@@ -1,0 +1,160 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh; 
+    padding: 0rem;
+}
+
+.sidebar{
+    background-color: #121212;
+    width: 340px; 
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.main-content{
+    background-color: #181818;
+    flex: 1;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    overflow-y: auto;
+    margin-bottom: 80px;
+}
+
+.music-player{
+    background-color: #181818;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    border-top: 1px solid #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* SIDEBAR NAV */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.badge{
+    color: white;
+    background-color: #232323;
+    border-radius: 20px;
+    height: 35px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+.badge:hover{
+    background-color: #383838;
+}
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+}
+
+.boxp1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.boxp2{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.badge-b{
+    border: none;
+    border-radius: 100px;
+    font-weight: 700;
+    height: 2rem;
+    margin-top: 0.5rem;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+}
+
+.badge-b:hover{
+    font-weight: 800;
+}
+.card-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #232323;
+    width: 180px;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover{
+    background-color: #2a2a2a;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.player-left,
+.player-center,
+.player-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.controls i{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.play-btn{
+    font-size: 2rem;
+}
+
+.progress{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.progress input{
+    width: 300px;
+}
