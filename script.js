@@ -43,8 +43,9 @@ volumeBar.addEventListener("input", () => {
 const nextBtn = document.querySelector(".fa-forward-step");
 const prevBtn = document.querySelector(".fa-backward-step");
 
+
 let songs = [
-    "./songs/1.mp3",
+    "./songs/mp3 1.mp4",
     "./songs/2.mp3",
     "./songs/3.mp3"
 ];
